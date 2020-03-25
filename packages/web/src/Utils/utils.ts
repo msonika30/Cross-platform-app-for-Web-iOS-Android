@@ -1,0 +1,1 @@
+export const playPodcast:any = () => alert('THIS IS THE LOG')
