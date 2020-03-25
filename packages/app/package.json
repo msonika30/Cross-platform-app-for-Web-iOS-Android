@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5",
-    "wml": "^0.0.83"
+    "react-native": "0.61.5"
   },
   "devDependencies": {
     "@adoribranded/common": "1.0.0",
