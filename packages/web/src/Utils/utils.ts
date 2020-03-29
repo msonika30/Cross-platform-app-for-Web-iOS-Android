@@ -1,1 +1,1 @@
-export const playPodcast:any = () => alert('THIS IS THE LOG')
+export const openAlert:any = () => alert('THIS IS THE ALERT')

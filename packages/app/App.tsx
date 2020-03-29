@@ -7,15 +7,15 @@ const Home = () => (
     <App />
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionDescription}>
-        Play button connects to webplayer on browser and native components in
-        iOS and android
+        Click button calls function to open alert on browser and calls native
+        SDK function in iOS and android apps
       </Text>
       <Text style={styles.sectionDescription}>
-        This play button is app specific and is in App package
+        This click button is app specific and is in App package
       </Text>
       <Button
-        title="Play"
-        onPress={() => NativeModules.PlayerSDK.openPlayer()}
+        title="Click"
+        onPress={() => NativeModules.NativeSDK.callNative()}
       />
     </View>
   </>

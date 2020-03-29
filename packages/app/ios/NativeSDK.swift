@@ -8,10 +8,10 @@
 
 import Foundation
 
-@objc(PlayerSDK)
-class PlayerSDK: NSObject {
+@objc(NativeSDK)
+class NativeSDK: NSObject {
   @objc
-  func openPlayer() {
-    print("THE PLAYER OPENING CODE GOES HERE")
+  func callNative() {
+    print("THE NATIVE FUNCTION IN IOS IS CALLED!")
   }
 }

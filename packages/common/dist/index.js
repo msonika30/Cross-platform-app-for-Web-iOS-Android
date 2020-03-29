@@ -12,8 +12,8 @@ var react_native_1 = require("react-native");
 exports.App = function () {
     var _a = react_1.useState(0), count = _a[0], setCount = _a[1];
     return (react_1.default.createElement(react_native_1.View, { style: styles.sectionContainer },
-        react_1.default.createElement(react_native_1.Text, { style: styles.sectionTitle }, "Adori Branded Apps"),
-        react_1.default.createElement(react_native_1.Text, { style: styles.sectionDescription }, "A demo app to test out player SDK integration into branded apps"),
+        react_1.default.createElement(react_native_1.Text, { style: styles.sectionTitle }, "Cross Platform Apps"),
+        react_1.default.createElement(react_native_1.Text, { style: styles.sectionDescription }, "A demo app to combine React Native components with native SDKs"),
         react_1.default.createElement(react_native_1.Text, { style: styles.sectionDescription }, "A simple counter to test React Native common package"),
         react_1.default.createElement(react_native_1.Text, { style: styles.sectionDescription }, count),
         react_1.default.createElement(react_native_1.Button, { title: "increment", onPress: function () { return setCount(count + 1); } })));

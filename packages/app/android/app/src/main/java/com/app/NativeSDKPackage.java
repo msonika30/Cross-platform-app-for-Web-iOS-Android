@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class PlayerSDKPackage implements ReactPackage {
+public class NativeSDKPackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
@@ -21,7 +21,7 @@ public class PlayerSDKPackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         //We import the module file here
-        modules.add(new PlayerSDK(reactContext));
+        modules.add(new NativeSDK(reactContext));
 
         return modules;
     }

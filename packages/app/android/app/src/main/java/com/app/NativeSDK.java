@@ -7,15 +7,15 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
-public class PlayerSDK extends ReactContextBaseJavaModule {
+public class NativeSDK extends ReactContextBaseJavaModule {
     //constructor
-    public PlayerSDK(ReactApplicationContext reactContext) {
+    public NativeSDK(ReactApplicationContext reactContext) {
         super(reactContext);
     }
     //Mandatory function getName that specifies the module name
     @Override
     public String getName() {
-        return "PlayerSDK";
+        return "NativeSDK";
     }
     //Custom function that we are going to export to JS
     @ReactMethod

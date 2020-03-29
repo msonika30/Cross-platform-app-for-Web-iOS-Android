@@ -11,8 +11,8 @@ export const App = () => {
   
     return (
       <View style={styles.sectionContainer}>
-        <Text style={styles.sectionTitle}>Adori Branded Apps</Text>
-        <Text style={styles.sectionDescription}>A demo app to test out player SDK integration into branded apps</Text>
+        <Text style={styles.sectionTitle}>Cross Platform Apps</Text>
+        <Text style={styles.sectionDescription}>A demo app to combine React Native components with native SDKs</Text>
         <Text style={styles.sectionDescription}>A simple counter to test React Native common package</Text>
         <Text style={styles.sectionDescription}>{count}</Text>
         <Button title="increment" onPress={() => setCount(count + 1)}></Button>

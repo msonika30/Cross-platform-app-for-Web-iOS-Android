@@ -1,5 +1,5 @@
 {
-  "name": "@adoribranded/common",
+  "name": "@cross-platform/common",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

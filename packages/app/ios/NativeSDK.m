@@ -8,8 +8,8 @@
 
 #import "React/RCTBridgeModule.h"
 
-@interface RCT_EXTERN_MODULE(PlayerSDK, NSObject)
+@interface RCT_EXTERN_MODULE(NativeSDK, NSObject)
 
-RCT_EXTERN_METHOD(openPlayer)
+RCT_EXTERN_METHOD(callNative)
 
 @end
